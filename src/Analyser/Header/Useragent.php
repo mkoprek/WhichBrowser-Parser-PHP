@@ -8,6 +8,8 @@ class Useragent
 
     private $data;
 
+    private $options;
+    
     public function __construct($header, &$data, &$options)
     {
         $this->data =& $data;
