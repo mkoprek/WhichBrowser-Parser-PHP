@@ -6,6 +6,8 @@ class Useragent
 {
     use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Application, Useragent\Using, Useragent\Engine, Useragent\Bot;
 
+    private $data;
+
     public function __construct($header, &$data, &$options)
     {
         $this->data =& $data;
