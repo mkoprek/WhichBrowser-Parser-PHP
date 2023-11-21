@@ -1,7 +1,7 @@
 {
-    "name": "whichbrowser/parser",
+    "name": "mkoprek/parser",
 
-    "description": "Useragent sniffing library for PHP",
+    "description": "FORK - Useragent sniffing library for PHP",
     "keywords": ["useragent","browser","sniffing", "ua"],
     "homepage": "http://whichbrowser.net",
     "license": "MIT",
